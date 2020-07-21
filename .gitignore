@@ -1,0 +1,60 @@
+.idea*
+Planning Sheet.ai
+Aggregation Server/sdagger Aggregator/.vs
+Aggregation Server/sdagger Aggregator/sdagger Aggregator.nsproj.user
+Aggregation Server/sdagger Aggregator/node_modules
+
+
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+*dist
+dist
+sdagger-frontend/tmp
+sdagger-frontend/out-tsc
+# Only exists if Bazel was run
+sdagger-frontend/bazel-out
+
+# dependencies
+*node_modules
+
+# profiling files
+sdagger-frontend/chrome-profiler-events*.json
+sdagger-frontend/speed-measure-plugin*.json
+
+# IDEs and editors
+sdagger-frontend/.idea
+sdagger-frontend/.project
+sdagger-frontend/.classpath
+sdagger-frontend/.c9/
+sdagger-frontend/*.launch
+sdagger-frontend/.settings/
+sdagger-frontend/*.sublime-workspace
+
+# IDE - VSCode
+sdagger-frontend/.vscode/*
+!sdagger-frontend/.vscode/settings.json
+!sdagger-frontend/.vscode/tasks.json
+!sdagger-frontend/.vscode/launch.json
+!sdagger-frontend/.vscode/extensions.json
+sdagger-frontend/.history/*
+
+# misc
+sdagger-frontend/.sass-cache
+sdagger-frontend/connect.lock
+sdagger-frontend/coverage
+sdagger-frontend/libpeerconnection.log
+sdagger-frontend/npm-debug.log
+sdagger-frontend/yarn-error.log
+sdagger-frontend/testem.log
+sdagger-frontend/typings
+
+# System Files
+sdagger-frontend/.DS_Store
+sdagger-frontend/Thumbs.db
+
+# IDE and Output Files
+sdagger-auto-updater/.vs
+sdagger-auto-updater/bin
+sdagger-auto-updater/obj
+
